@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A549FA31D62C14100DFD628 /* UIScrollerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A549FA21D62C14100DFD628 /* UIScrollerMenu.m */; };
+		7A549FA51D62C15A00DFD628 /* UIScrollerMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A549FA41D62C15A00DFD628 /* UIScrollerMenu.xib */; };
 		7A91EC541D616571005DE569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A91EC531D616571005DE569 /* main.m */; };
 		7A91EC571D616571005DE569 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A91EC561D616571005DE569 /* AppDelegate.m */; };
 		7A91EC5A1D616571005DE569 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A91EC591D616571005DE569 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		7A91EC621D616571005DE569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A91EC601D616571005DE569 /* LaunchScreen.storyboard */; };
 		7A91EC6D1D616571005DE569 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A91EC6C1D616571005DE569 /* ____Tests.m */; };
 		7A91EC781D616571005DE569 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A91EC771D616571005DE569 /* ____UITests.m */; };
+		7A91EC871D6170CD005DE569 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A91EC861D6170CD005DE569 /* SecondViewController.m */; };
+		7A91EC8A1D61A2DD005DE569 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A91EC891D61A2DD005DE569 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A549FA11D62C14100DFD628 /* UIScrollerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollerMenu.h; sourceTree = "<group>"; };
+		7A549FA21D62C14100DFD628 /* UIScrollerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollerMenu.m; sourceTree = "<group>"; };
+		7A549FA41D62C15A00DFD628 /* UIScrollerMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIScrollerMenu.xib; sourceTree = "<group>"; };
 		7A91EC4F1D616571005DE569 /* 视图错觉.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视图错觉.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A91EC531D616571005DE569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A91EC551D616571005DE569 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,10 @@
 		7A91EC731D616571005DE569 /* 视图错觉UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "视图错觉UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A91EC771D616571005DE569 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		7A91EC791D616571005DE569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A91EC851D6170CD005DE569 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7A91EC861D6170CD005DE569 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7A91EC881D61A2DD005DE569 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7A91EC891D61A2DD005DE569 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,13 @@
 				7A91EC561D616571005DE569 /* AppDelegate.m */,
 				7A91EC581D616571005DE569 /* ViewController.h */,
 				7A91EC591D616571005DE569 /* ViewController.m */,
+				7A91EC851D6170CD005DE569 /* SecondViewController.h */,
+				7A91EC861D6170CD005DE569 /* SecondViewController.m */,
+				7A91EC881D61A2DD005DE569 /* ThirdViewController.h */,
+				7A91EC891D61A2DD005DE569 /* ThirdViewController.m */,
+				7A549FA11D62C14100DFD628 /* UIScrollerMenu.h */,
+				7A549FA21D62C14100DFD628 /* UIScrollerMenu.m */,
+				7A549FA41D62C15A00DFD628 /* UIScrollerMenu.xib */,
 				7A91EC5B1D616571005DE569 /* Main.storyboard */,
 				7A91EC5E1D616571005DE569 /* Assets.xcassets */,
 				7A91EC601D616571005DE569 /* LaunchScreen.storyboard */,
@@ -243,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A549FA51D62C15A00DFD628 /* UIScrollerMenu.xib in Resources */,
 				7A91EC621D616571005DE569 /* LaunchScreen.storyboard in Resources */,
 				7A91EC5F1D616571005DE569 /* Assets.xcassets in Resources */,
 				7A91EC5D1D616571005DE569 /* Main.storyboard in Resources */,
@@ -270,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A91EC871D6170CD005DE569 /* SecondViewController.m in Sources */,
+				7A91EC8A1D61A2DD005DE569 /* ThirdViewController.m in Sources */,
 				7A91EC5A1D616571005DE569 /* ViewController.m in Sources */,
 				7A91EC571D616571005DE569 /* AppDelegate.m in Sources */,
+				7A549FA31D62C14100DFD628 /* UIScrollerMenu.m in Sources */,
 				7A91EC541D616571005DE569 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +518,7 @@
 				7A91EC7E1D616571005DE569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A91EC7F1D616571005DE569 /* Build configuration list for PBXNativeTarget "视图错觉Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +527,7 @@
 				7A91EC811D616571005DE569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A91EC821D616571005DE569 /* Build configuration list for PBXNativeTarget "视图错觉UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +536,7 @@
 				7A91EC841D616571005DE569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

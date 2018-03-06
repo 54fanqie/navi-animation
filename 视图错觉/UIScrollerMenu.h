@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIScrollerMenu : UIView
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *menuHeight;
 
 @end
